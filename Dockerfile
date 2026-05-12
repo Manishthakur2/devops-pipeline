@@ -6,4 +6,4 @@ RUN adduser --disabled-password --gecos "" thor
 USER thor
 COPY . .
 ENTRYPOINT [ "python" ]
-CMD [ "app.py" ]
+CMD [ "app/app.py" ]
