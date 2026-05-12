@@ -1,0 +1,6 @@
+services:
+  flask:
+    image: manishthakur2/devops-pipeline:latest
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
