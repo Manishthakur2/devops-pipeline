@@ -117,12 +117,15 @@ docker compose up
 ---
 
 ## What I Learned
-
 - How to design a multi-stage CI/CD pipeline with job dependencies
-- Securing containers by running as a non-root user
+- Securing containers by running as a non-root user (`adduser` vs `useradd` on Debian slim images)
 - Using GitHub Secrets to manage credentials safely
 - Automating zero-downtime deployments to cloud infrastructure
 - Verifying deployments with post-deploy health checks
+- Debugging container crash loops using `docker logs`
+- Fixing SSH key permissions (`chmod 400`) for secure EC2 access
+- Configuring Docker group permissions to avoid `sudo` on every command
+- Troubleshooting AWS Security Group rules for port access
 
 ---
 
